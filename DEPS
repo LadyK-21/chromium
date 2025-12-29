@@ -332,7 +332,7 @@ vars = {
   # Three lines of non-changing comments so that
   # the commit queue can handle CLs rolling BoringSSL
   # and whatever else without interference from each other.
-  'boringssl_revision': 'a5eafaa42335cb9ad053a5df76d3bee022f40a8f',
+  'boringssl_revision': 'f2fdfcd521d9ef1abbb3db55da009313cb26584a',
   # Three lines of non-changing comments so that
   # the commit queue can handle CLs rolling Fuchsia sdk
   # and whatever else without interference from each other.
@@ -508,7 +508,7 @@ vars = {
   # Three lines of non-changing comments so that
   # the commit queue can handle CLs rolling feed
   # and whatever else without interference from each other.
-  'libunwind_revision':    'f4b329c171f133c4cbad4819773eaf889a9f64cc',
+  'libunwind_revision':    '68533a8773e460c619ab863cae1ebc3d57301e7e',
   # Three lines of non-changing comments so that
   # the commit queue can handle CLs rolling feed
   # and whatever else without interference from each other.
@@ -1195,7 +1195,7 @@ deps = {
       'packages': [
           {
               'package': 'chromium/chrome/android/orderfiles/arm',
-              'version': 'bfxUdjZ-YkRNwoUMF44lmqJdrpEK0M_iI5MhL78GAvUC',
+              'version': 'Fh-1kxB5lGAnL1MUDxAodB_je0xf2VG1v3mJ07ZkGfEC',
           },
       ],
       'condition': 'checkout_android and non_git_source',
@@ -1206,7 +1206,7 @@ deps = {
       'packages': [
           {
               'package': 'chromium/chrome/android/orderfiles/arm64',
-              'version': 'jpXJAuV93mOamBvBuezgDxzajQHmyifcAtRPZ2tC7cYC',
+              'version': 'cAAP9hDPfxzVn3bjb6gHEsZkbpt9LafuEf9a831RdTkC',
           },
       ],
       'condition': 'checkout_android and non_git_source',
@@ -1217,7 +1217,7 @@ deps = {
       'packages': [
           {
               'package': 'chromium/android_webview/tools/orderfiles/arm',
-              'version': 'eLblhlw9in-kDI736U_gJwzBsW7Ftd6gd0Jf3A8FzcgC',
+              'version': 'w_xjA-C-y-9HT-vLPpcQ1p650Lw3otjOzWzATEzk7ZkC',
           },
       ],
       'condition': 'checkout_android and non_git_source',
@@ -1228,7 +1228,7 @@ deps = {
       'packages': [
           {
               'package': 'chromium/android_webview/tools/orderfiles/arm64',
-              'version': 'bWm_Mq9q7KBBjjpBjBCVKiq0Kcgozbgf6zM6bWM0mrQC',
+              'version': 'IsifEpJO633eZKQgaTUZz0lqJPqQdgXUuxWHGRvX_9AC',
           },
       ],
       'condition': 'checkout_android and non_git_source',
@@ -1613,7 +1613,7 @@ deps = {
     'packages': [
       {
         'package': 'chromium/chrome/test/data/variations/cipd',
-        'version': 'BzNuFL-RIiwqLvpeRRxz0cD9LJ-qAqAGBek5aW4HP70C',
+        'version': 'vsIsN9LSgIan3ibTo1IEKKFmsyBL2vgNMmTINF5dy5kC',
       },
     ],
     'dep_type': 'cipd',
@@ -1724,7 +1724,7 @@ deps = {
     'packages': [
       {
           'package': 'chromium/third_party/androidx',
-          'version': 'dUQToKCZcA591TehjscmQEDwGBwVRqyCUNGZS7Q3hQwC',
+          'version': 'DTyJQ37rJU7mkvZAZELssAM8FJ5D9dvTFWCtmMCLxbwC',
       },
     ],
     'condition': 'checkout_android and non_git_source',
@@ -2992,7 +2992,7 @@ deps = {
     Var('chromium_git') + '/webpagereplay.git' + '@' + Var('webpagereplay_revision'),
 
   'src/third_party/webrtc':
-    Var('webrtc_git') + '/src.git' + '@' + '1fbc1f1be61c6ad0ee5212b5e29ebc4103e8b8eb',
+    Var('webrtc_git') + '/src.git' + '@' + '5a25db751b42e2c9eba28f8d80ff9590c50a908b',
 
   # Wuffs' canonical repository is at github.com/google/wuffs, but we use
   # Skia's mirror of Wuffs, the same as in upstream Skia's DEPS file.
@@ -3180,7 +3180,7 @@ deps = {
     'packages': [
       {
         'package': 'chromeos_internal/apps/projector_app/app',
-        'version': 'EorojVERN9rn7x0edXumZMMmf8i-kHMJfedqAlI7xmwC',
+        'version': 'rxVSYiP0fJy6ozJeujm5EK4xMTxggV6fZ59bC2dZd9UC',
       },
     ],
     'condition': 'checkout_chromeos and checkout_src_internal',
@@ -3769,7 +3769,7 @@ deps = {
 
   'src/ios_internal':  {
       'url': Var('chrome_git') + '/chrome/ios_internal.git' + '@' +
-        '9e3bb114e650fe1ff0138f0f8cb72d6611182df7',
+        '20768b8a23de25888c6eef386a8b5dda6b16411d',
       'condition': 'checkout_ios and checkout_src_internal',
   },
 
